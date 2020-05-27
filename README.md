@@ -4,7 +4,10 @@
 ![](https://img.shields.io/github/stars/partyka1/mask-off)
 ![](https://img.shields.io/github/license/partyka1/mask-off)
 ![](https://img.shields.io/github/twitter/partyka1/mask-off)
-![](demo.jpg)
+
+<p align="center">
+  <img src="https://github.com/partyka1/mask-off/blob/master/demo.jpg"/>
+</p>
 
 Real life mask detection using your webcam.
 
