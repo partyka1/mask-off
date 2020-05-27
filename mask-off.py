@@ -175,7 +175,6 @@ while(True):
     open_cv_image = numpy.array(pilImg)
     open_cv_image = open_cv_image[:, :, ::-1].copy()
     cv2.imshow('on & on', open_cv_image)
-    # cv2.imshow('frame', plt.pcolor.)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
