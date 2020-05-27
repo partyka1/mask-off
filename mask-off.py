@@ -24,7 +24,7 @@ BASEWIDTH = 1600
 MASKED_COLOR = '#00b189'
 NOT_MASKED_COLOR = '#365abd'
 
-ROOT_DIR = os.path.dirname(os.path.abspath(os.curdir))
+ROOT_DIR = Path().absolute()
 FONT_TTF_LOC = str(Path(ROOT_DIR) / 'data' / 'fonts' / 'Arvo-Regular.ttf')
 
 
@@ -144,8 +144,8 @@ def predict_masked_faces(body):
     }
 
 
-root_dir = os.path.dirname(os.path.abspath(os.curdir))
-data_dir = Path(root_dir) / 'data'
+root_dir = Path().absolute()
+data_dir = root_dir / 'data'
 model_dir = data_dir / 'classifier_model_weights'
 
 best_model = tf.keras.models.load_model(model_dir / 'best.h5')
