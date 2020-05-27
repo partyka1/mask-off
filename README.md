@@ -11,6 +11,9 @@
 
 Real life mask detection using your webcam.
 
+### Note
+Under the hood neural network developed by https://github.com/datarootsio/face-mask-detection is used, check out their repo!
+
 ### Requirements
 * Python 3.7
 
