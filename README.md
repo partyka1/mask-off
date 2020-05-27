@@ -9,7 +9,7 @@
   <img src="https://github.com/partyka1/mask-off/blob/master/demo.jpg"/>
 </p>
 
-Real life mask detection using your webcam.
+Real time mask detection using your webcam.
 
 ### Note
 Under the hood neural network developed by https://github.com/datarootsio/face-mask-detection is used, check out their repo!
